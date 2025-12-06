@@ -10,17 +10,23 @@ export default function Home() {
 
       <div
         className="absolute flex flex-col sm:flex-row gap-6 sm:gap-12 items-end z-50"
-        style={{ bottom: '10%', right: '5%', zIndex: 50 }}
+        style={{ bottom: '15%', right: '5%', zIndex: 50 }}
       >
         <GlassCard
-          title="If you are a guest"
-          description="You will be rewarded. It is free"
+          title="GUEST"
+          description={
+            <>
+              Claim your reward
+              <br />
+              It is free
+            </>
+          }
           type="guest"
           buttonText="Click Here"
         />
         <GlassCard
-          title="If you are a member"
-          description="Claim your benefits. It is free"
+          title="MEMBER"
+          description="Claim your benefits"
           type="member"
           buttonText="Click Here"
         />
