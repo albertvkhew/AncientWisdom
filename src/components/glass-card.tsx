@@ -7,10 +7,11 @@ interface GlassCardProps {
     title: string;
     description: string | React.ReactNode;
     buttonText?: string;
+    href?: string;
     type: 'guest' | 'member';
 }
 
-export default function GlassCard({ title, description, buttonText = "Click Here", type }: GlassCardProps) {
+export default function GlassCard({ title, description, buttonText = "Click Here", href = "/next-page", type }: GlassCardProps) {
     return (
         <div
             className="glass-card flex flex-col items-center justify-center p-2 text-center"
@@ -33,7 +34,7 @@ export default function GlassCard({ title, description, buttonText = "Click Here
                 </h3>
             </div>
 
-            <Link href="/next-page" className="mb-2 inline-block">
+            <Link href={href} className="mb-2 inline-block">
                 <div
                     className="btn-glow inline-block"
                     style={{ padding: '3px 10px', fontSize: '0.55rem' }}

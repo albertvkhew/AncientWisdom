@@ -23,6 +23,7 @@ export default function Home() {
           }
           type="guest"
           buttonText="Click Here"
+          href="https://muyaguestlogin.zeabur.app/index.html"
         />
         <GlassCard
           title="MEMBER"
