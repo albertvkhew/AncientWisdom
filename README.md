@@ -26,6 +26,12 @@ Open [http://localhost:3000](http://localhost:3000) to view the landing page.
 
 ## Changelog
 
+### v0.1.3
+
+- Added gradient background behind video (soft blue/purple tones)
+- Added side hero text: "Ancient Wisdom" (left) and "Thrive Every Day" (right)
+- Added poster image fallback for mobile devices
+
 ### v0.1.2
 
 - Disabled Hero text marquee
