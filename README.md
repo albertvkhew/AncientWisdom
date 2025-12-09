@@ -26,6 +26,11 @@ Open [http://localhost:3000](http://localhost:3000) to view the landing page.
 
 ## Changelog
 
+### v0.1.2
+
+- Disabled Hero text marquee
+- Zoomed out video (object-fit: contain) to show full figure
+
 ### v0.1.1
 
 - **Guest Login Link**: Clicking "Click Here" on the Guest card now redirects to `https://muyaguestlogin.zeabur.app/index.html`
