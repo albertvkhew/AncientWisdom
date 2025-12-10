@@ -16,7 +16,7 @@ export default function VideoBackground() {
                 className="absolute top-0 left-0 w-full h-full object-contain"
                 style={{ width: "100%", height: "100%", objectFit: "contain" }}
             >
-                <source src="/BaziMeetBotany.mp4" type="video/mp4" />
+                <source src="/AncientWisdomMeetBotany.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <div className="absolute top-0 left-0 w-full h-full bg-black/10" />

@@ -26,6 +26,11 @@ Open [http://localhost:3000](http://localhost:3000) to view the landing page.
 
 ## Changelog
 
+### v0.1.4
+
+- Switched to smaller video file: AncientWisdomMeetBotany.mp4 (1.8MB vs 4.6MB)
+- Improved mobile loading performance
+
 ### v0.1.3
 
 - Added gradient background behind video (soft blue/purple tones)
