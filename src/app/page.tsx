@@ -68,6 +68,7 @@ export default function Home() {
           description="Claim your benefits"
           type="member"
           buttonText="Click Here"
+          href="https://muyamembers.zeabur.app/?locale=en"
         />
       </div>
     </main>
